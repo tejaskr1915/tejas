@@ -1,0 +1,130 @@
+ 
+   @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&display=swap');
+ 
+*{
+    padding: 0%;
+    margin: 0%;
+}
+    
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+nav {
+    background-color: rgb(24, 180, 141);
+    padding: 20px;
+}
+
+nav div {
+    display: inline-block;
+    width: 49%;
+}
+
+nav .nav2 a {
+    display: inline-block;
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav h1 {
+    margin-left: 20px;
+    color: rgb(242, 83, 83);
+    display: inline-block;
+}
+
+.main img {
+    border-radius: 20%;
+    margin-right: auto;
+
+}
+
+.main {
+    width: 100%;
+    margin: auto;
+    padding: 100px 50px 100px 0;
+}
+
+.main div {
+    width: 45%;
+    
+    display: inline-block;
+}
+
+.main1 {
+    text-align: center
+}
+
+.main button {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main h1,
+.main button {
+    margin-top: 20px
+}
+.aboutdiv{
+    padding-left: 30px;
+}
+.skillh1{
+
+    padding-left: 30px;
+
+}
+ 
+.cards{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    padding: 8px;
+    border-radius:30px ;
+    background-color: rgb(244, 234, 154);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5% ;
+    
+}
+.cards:hover{
+    background-color: rgb(239, 225, 120);
+    scale: 115%;
+}
+.project{
+    display: inline-block;
+    width: 100%;
+}
+.project .prodiv{
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    padding: 2%;
+    border: 1px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.pradi{
+    border: color(srgb red green blue);
+    border-style: solid; 
+}
+.cont1{
+    width: 100%;
+}
+footer{
+    background-color: rgb(24, 180, 141);
+}
+
+.cont{
+    display: inline-block;
+    width: 49%;
+    background-color: rgb(24, 180, 141);
+}   
+.scr{
+    text-align: end;
+}
